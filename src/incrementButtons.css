@@ -1,0 +1,54 @@
+#increment-div {
+    margin-top: 4rem;
+}
+
+#increment-demo-area {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+#increment-text {
+    width: 50%;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+#inc-button-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 15rem;
+}
+
+.inc-button {
+    width: 9rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    border: 3px solid black;
+    position: relative;
+    bottom: 0.5rem;
+    background-color: chocolate;
+}
+
+.inc-button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 1px;
+}
+
+.inc-button:active {
+    background-color: rgb(163, 83, 25);
+}
+
+#increment-info {
+    margin-top: 3rem;
+    padding: 2rem 9rem;
+    font-size: 1.25rem;
+    background-color: rgb(217, 167, 1);
+}
+
+h1 {
+    margin-bottom: 3rem;
+    text-align: center;
+}

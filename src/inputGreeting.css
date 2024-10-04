@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#input-main-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    height: 2rem;
+    width: 12rem;
+    border: solid 3px black;
+    position: relative;
+    bottom: .2rem;
+}
+
+#input-submit-button {
+    margin-left: 2rem;
+    height: 2rem;
+    width: 6rem;
+    border: solid 3px black;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+#input-and-button-container {
+    width: 50%;
+    text-align: center;
+}
+
+#greeting-container {
+    width: 50%;
+    text-align: left;
+}
+
+#greeting {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+#input-info {
+    margin-top: 3rem;
+    font-size: 1.25rem;
+    background-color: rgb(217, 167, 1);
+    padding: 2rem 9rem;
+}
+
+h1 {
+    margin-top: 3rem;
+    
+}
